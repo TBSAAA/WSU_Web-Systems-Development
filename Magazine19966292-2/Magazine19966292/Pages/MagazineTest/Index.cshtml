@@ -1,0 +1,64 @@
+﻿@page
+@model Magazine19966292.Pages.MagazineTest.IndexModel
+@{
+    ViewData["Title"] = "MagazineTest";
+}
+
+
+<style>
+
+    .st {
+        border: 2px solid #9cb8da;
+    }
+
+    table, table tr th, table tr td {
+        border: 1px solid #9cb8da;
+    }
+
+    table {
+        width: 500px;
+        min-height: 30px;
+        line-height: 30px;
+        text-align: left;
+        border-collapse: collapse;
+    }
+
+    blockquote {
+        padding: 10px;
+    }
+
+</style>
+<div>
+    <table>
+        <thead>
+            <tr class="st">
+                <th><strong>Magazine ID</strong></th>
+                <th><strong>Magazine Name</strong></th>
+                <th><strong>Price per issue</strong></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>1</strong></td>
+                <td>Scientific American</td>
+                <td>$6.50</td>
+            </tr>
+            <tr>
+                <td><strong>2</strong></td>
+                <td>New Scientist</td>
+                <td>$6.00</td>
+            </tr>
+            <tr>
+                <td><strong>3</strong></td>
+                <td>Reader’s Digest</td>
+                <td>$5.00</td>
+            </tr>
+            <tr>
+                <td><strong>4</strong></td>
+                <td>National Geographic</td>
+                <td>$7.00</td>
+            </tr>
+        </tbody>
+    </table>
+    <blockquote>Table 1: Magazine Details</blockquote>
+</div>

@@ -1,0 +1,40 @@
+﻿<Properties StartupConfiguration="{95B938FA-728B-43DC-93EE-11D726094444}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Magazine19966292/Pages/Magazines/Purchase.cshtml.cs">
+    <Files>
+      <File FileName="Magazine19966292/Model/Customer.cs" Line="1" Column="1" />
+      <File FileName="Magazine19966292/Model/MagazinePurchase.cs" />
+      <File FileName="Magazine19966292/Pages/Magazines/Purchase.cshtml" Line="16" Column="11" />
+      <File FileName="Magazine19966292/Pages/Magazines/Purchase.cshtml.cs" Line="23" Column="28" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Magazine19966292" expanded="True">
+            <Node name="Magazine19966292" expanded="True">
+              <Node name="Migrations" expanded="True" />
+              <Node name="Model" expanded="True" />
+              <Node name="Pages" expanded="True">
+                <Node name="Magazines" expanded="True">
+                  <Node name="Purchase.cshtml" expanded="True">
+                    <Node name="Purchase.cshtml.cs" selected="True" />
+                  </Node>
+                </Node>
+                <Node name="Index.cshtml" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Magazine19966292 PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

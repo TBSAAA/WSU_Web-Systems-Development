@@ -1,0 +1,88 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+
+<style>
+    /* Make the image occupy the full width, and be responsive (scale automatically) */
+    img {
+        width: 100%;
+        height: auto;
+    }
+</style>
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="3000">
+
+    <!-- Indicators -->
+    <ul class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ul>
+
+    <!-- The slideshow -->
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="~/images/National Geographic.jpg" alt="National Geographic" />
+            <div class="carousel-caption">
+                <h3>
+                    National Geographic
+                </h3>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="~/images/New Scientist.jpg" alt="New Scientist" />
+            <div class="carousel-caption">
+                <h3>
+                    New Scientist
+                </h3>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="~/images/Reader’s Digest.jpg" alt="Reader’s Digest" />
+            <div class="carousel-caption">
+                <h3>
+                    Reader’s Digest
+                </h3>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="~/images/Scientific American.jpg" alt="Scientific American" />
+            <div class="carousel-caption">
+                <h3>
+                    Scientific American
+                </h3>
+            </div>
+        </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+    </a>
+</div>
+
+<br />
+
+<div class="row">
+    <div class="col-md-8">
+        <h3>This is the first combined column</h3>
+        <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci magni hic esse? Tempore ad reiciendis consequuntur dolores? Eaque, incidunt voluptatibus dolore commodi doloribus libero mollitia. Dolore, accusamus tenetur. Adipisci, atque.
+        </p>
+    </div>
+    <div class="col-md-4">
+        <h2 class="text-center">Useful Links</h2>
+        <ul>
+            <li><a asp-area="" asp-page="/Index">Home</a></li>
+            <li><a asp-area="" asp-page="/Magazines/Index">Magazine Index</a></li>
+            <li><a asp-area="" asp-page="/Privacy">Privacy</a></li>
+        </ul>
+    </div>
+</div>
